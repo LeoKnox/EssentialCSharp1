@@ -18,6 +18,10 @@ namespace Essential01
             message = "'long' and 'short' are also int values";
             message = ($"this is big int {bigInt}, smInt {smInt} and posInt {posInt}");
             Console.WriteLine(message);
+            Console.WriteLine(int.Parse("15"));
+            string test = "12345";
+            test = test.PadLeft(9, '0');
+            Console.WriteLine(test);
         }
     }
 }
