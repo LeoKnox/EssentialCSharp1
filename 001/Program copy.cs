@@ -1,9 +1,4 @@
-﻿using System;
-
-namespace Essential011
-{
-    class P2rogram
-    {
+﻿/*
     public static string title = "My programs";
     public static int aNumber;
         static void Main2(string[] args)
@@ -22,6 +17,4 @@ namespace Essential011
             string test = "12345";
             test = test.PadLeft(9, '0');
             Console.WriteLine(test);
-        }
-    }
-}
+*/
