@@ -18,6 +18,7 @@ namespace Essential01
             Console.WriteLine(string.Format(" This is {0} at {1:0,0.000} and is {2:t}", tex,somNum,current));
             Console.WriteLine(22/7);
             Console.WriteLine(Math.Round(5.3));
+            enum nums {one=1, two, three};
         }
     }
 }
