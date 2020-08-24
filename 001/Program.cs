@@ -19,6 +19,7 @@ namespace Essential01
             Console.WriteLine(22/7);
             Console.WriteLine(Math.Round(5.3));
             enum nums {one=1, two, three};
+            DateTime newDay = new DateTime(1999, 3, 28);
         }
     }
 }
