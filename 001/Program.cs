@@ -16,6 +16,8 @@ namespace Essential01
             int zz = int.Parse(xx.Replace(",", ""));
             Console.WriteLine(zz);
             Console.WriteLine(string.Format(" This is {0} at {1:0,0.000} and is {2:t}", tex,somNum,current));
+            Console.WriteLine(22/7);
+            Console.WriteLine(Math.Round(5.3));
         }
     }
 }
