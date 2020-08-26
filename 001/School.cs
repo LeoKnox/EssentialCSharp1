@@ -25,5 +25,15 @@ namespace Essential01
                 }
             }
         }
+        public School()
+        {
+            Name = "Untitled School";
+            Color = "Gray";
+        }
+        public School(string SchoolName, string SchoolColor)
+        {
+            Name = SchoolName;
+            Color = SchoolColor;
+        }
     }
 }
