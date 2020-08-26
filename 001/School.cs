@@ -14,6 +14,7 @@ namespace Essential01
         public string Socialmedia
         {
             // make sure address starts with @
+            // encapsulation logic
             get { return _sm; }
             set
             {
