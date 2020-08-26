@@ -43,8 +43,8 @@ namespace Essential01
         }
         */
         // function bodied version
-        public float AvgThree(float a, float b, float c) => (a + b + c)/3;
-        public int AvgThree(int a, int b, int c)
+        public static float AvgThree(float a, float b, float c) => (a + b + c)/3;
+        public static int AvgThree(int a, int b, int c)
         {
             int result = (a + b + c)/3;
             return result;
