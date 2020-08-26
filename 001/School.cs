@@ -2,15 +2,15 @@ using System;
 
 namespace Essential01
 {
-    class School
+    public class School
     {
         //string SchoolName;
-        string Name { get; set; } // pretty much same as previous line
-        string City { get; set; }
-        string Mascot { get; set; }
-        string Color { get; set; }
-        string _sm;
-        string Socialmedia
+        public string Name { get; set; } // pretty much same as previous line
+        public string City { get; set; }
+        public string Mascot { get; set; }
+        public string Color { get; set; }
+        private string _sm;
+        public string Socialmedia
         {
             // make sure address starts with @
             get { return _sm; }
