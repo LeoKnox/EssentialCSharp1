@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace Essential01
 {
@@ -48,6 +49,14 @@ namespace Essential01
         {
             int result = (a + b + c)/3;
             return result;
+        }
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(Name);
+            sb.AppendLine(Color);
+            sb.AppendLine(Mascot);
+            return sb.ToString();
         }
     }
 }
