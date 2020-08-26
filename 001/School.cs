@@ -35,5 +35,15 @@ namespace Essential01
             Name = SchoolName;
             Color = SchoolColor;
         }
+        public float AvgThree(float a, float b, float c)
+        {
+            float result = (a + b + c)/3;
+            return result;
+        }
+        public int AvgThree(int a, int b, int c)
+        {
+            int result = (a + b + c)/3;
+            return result;
+        }
     }
 }
