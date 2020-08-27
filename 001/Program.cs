@@ -19,8 +19,18 @@ namespace Essential01
             string mascot = Console.ReadLine();
             Console.Write("Enter School Color: ");
             string color = Console.ReadLine();
-            Console.Write("Enter School Media: ");
-            string media = Console.ReadLine();
+            while (First.Socialmedia == null)
+            {
+                Console.Write("Enter School Media: ");
+                try
+                {
+                    First.Socialmedia = Console.ReadLine();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
         }
     }
 }
