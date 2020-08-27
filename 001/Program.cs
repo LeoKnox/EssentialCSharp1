@@ -8,17 +8,14 @@ namespace Essential01
         static void Main(string[] args)
         {
             School First = new School();
-            Console.WriteLine(First.Name);
             Console.Write("Enter School Name: ");
-            string name = Console.ReadLine();
-            First.Name = name + " University";
-            Console.WriteLine(First.Name);
+            First.Name = Console.ReadLine() + " University";
             Console.Write("Enter School City: ");
-            string City = Console.ReadLine();
+            First.City = Console.ReadLine();
             Console.Write("Enter School Mascot: ");
-            string mascot = Console.ReadLine();
+            First.Mascot = Console.ReadLine();
             Console.Write("Enter School Color: ");
-            string color = Console.ReadLine();
+            First.Color = Console.ReadLine();
             while (First.Socialmedia == null)
             {
                 Console.Write("Enter School Media: ");
@@ -31,6 +28,7 @@ namespace Essential01
                     Console.WriteLine(e.Message);
                 }
             }
+            Console.WriteLine(First.ToString());
         }
     }
 }
