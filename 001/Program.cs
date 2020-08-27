@@ -9,6 +9,18 @@ namespace Essential01
         {
             School First = new School();
             Console.WriteLine(First.Name);
+            Console.Write("Enter School Name: ");
+            string name = Console.ReadLine();
+            First.Name = name + " University";
+            Console.WriteLine(First.Name);
+            Console.Write("Enter School City: ");
+            string City = Console.ReadLine();
+            Console.Write("Enter School Mascot: ");
+            string mascot = Console.ReadLine();
+            Console.Write("Enter School Color: ");
+            string color = Console.ReadLine();
+            Console.Write("Enter School Media: ");
+            string media = Console.ReadLine();
         }
     }
 }
