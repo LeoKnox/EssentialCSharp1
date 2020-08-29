@@ -6,5 +6,7 @@ namespace Essential01
     {
         public string Name { get; set; }
         public string Hobby { get; set; }
+
+        public abstract float ComputeGrade();
     }
 }
