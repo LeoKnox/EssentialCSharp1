@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using Essential01.Student;
 
 namespace Essential01
 {
@@ -29,6 +30,8 @@ namespace Essential01
                 }
             }
             Console.WriteLine(First.ToString());
+
+            var student = new Teacher();
         }
     }
 }
