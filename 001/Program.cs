@@ -33,6 +33,7 @@ namespace Essential01
             var Teacher = new Teacher();
             var Student = new Student();
             Console.WriteLine(Teacher.ComputeGrade());
+            Console.WriteLine(Teacher.SendMessage("Yo"));
             Console.WriteLine(Student.ComputeGrade());
         }
     }
