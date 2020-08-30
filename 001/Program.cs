@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Text;
-using Teacher;
 
 namespace Essential01
 {
@@ -33,8 +32,8 @@ namespace Essential01
 
             var Teacher = new Teacher();
             var Student = new Student();
-            Console.WriteLine(Teacher.ComputeGrade);
-            Console.WriteLine(Student.ComputeGrade);
+            Console.WriteLine(Teacher.ComputeGrade());
+            Console.WriteLine(Student.ComputeGrade());
         }
     }
 }
